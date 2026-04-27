@@ -1,46 +1,27 @@
- Python
+# Python
+__pycache__/
+*.pyc
 
-  pycache/
-  *.py[cod]
-  *$py.class
-  *.so
-  .Python
-  env/
-  venv/
-  .venv/
-  *.egg-info/
-  dist/
-  build/
+# Jupyter
+.ipynb_checkpoints/
 
-  Jupyter Notebook
+# Virtual environments
+venv/
+env/
+.venv/
 
-  .ipynb_checkpoints/
-  *.ipynb_checkpoints
+# OS files
+.DS_Store
+Thumbs.db
 
-  Data and models (large files)
+# Logs
+*.log
 
-  data/
-  *.pth
-  *.pt
-  *.h5
-  *.pkl
-  *.pickle
+# Data (do not upload datasets)
+data/
 
-  IDE
-
-  .vscode/
-  .idea/
-  *.swp
-  *.swo
-
-  OS
-
-  .DS_Store
-  Thumbs.db
-
-  Environment
-
-  .env
-  *.log
-
-  ---
+# Models (do not upload weights)
+*.pt
+*.pth
+*.pkl
+*.h5
